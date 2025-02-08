@@ -1,0 +1,65 @@
+/* Small screens (mobile) */
+@media (max-width: 600px) {
+    .search-text {
+        width: 60vw;
+        /* Reduce search bar width */
+    }
+
+    .nav-right {
+        gap: 1rem;
+        /* Reduce spacing */
+        display: none;
+    }
+
+    /* 
+    .side-item {
+        width: 50px;
+    } */
+
+    .main-page {
+        grid-template-columns: 50px 1fr;
+        /* Adjust sidebar width */
+    }
+
+    .card {
+        width: 100%;
+        /* Full width for videos */
+    }
+
+
+    .top-row span {
+        font-size: 12px;
+        /* Reduce font size */
+        padding: 3px 8px;
+        /* Adjust padding */
+    }
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 900px) {
+    .search-text {
+        width: 50vw;
+        /* Adjust search bar width */
+    }
+
+    .nav-right {
+        gap: 1.5rem;
+        /* Adjust spacing */
+        display: none;
+    }
+
+    .side-item {
+        width: 60px;
+        /* Slightly reduce sidebar */
+    }
+
+    .main-page {
+        grid-template-columns: 60px 1fr;
+        /* Adjust layout */
+    }
+
+    .card {
+        width: 45%;
+        /* Two videos in a row */
+    }
+}
